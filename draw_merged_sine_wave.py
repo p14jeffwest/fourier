@@ -19,11 +19,11 @@ plt.title(r"$y1 = 1.1 \cdot \sin (2 \pi \cdot 60t) $")
 
 plt.subplot(4,1,3)
 plt.plot(t,y2)
-plt.title(r"$y1 = 0.8 \cdot \sin (2 \pi \cdot 120t) $")
+plt.title(r"$y2 = 0.8 \cdot \sin (2 \pi \cdot 120t) $")
 
 plt.subplot(4,1,4)
 plt.plot(t,y3)
-plt.title(r"$y1 = 1.5 \cdot \sin (2 \pi \cdot 180t) $")
+plt.title(r"$y3 = 1.5 \cdot \sin (2 \pi \cdot 180t) $")
 
 plt.tight_layout()
 plt.show()
